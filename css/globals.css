@@ -1,0 +1,57 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/62535bf2de13301f6a12d426.62535bf4752bb1d3b2bccd13.RO9CnXC.hcp.png");
+
+@font-face {
+  font-family: "ArialBlack-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Arial Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "AvenirNext-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Metropolis-Regular.otf") format("opentype");
+}
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+input:focus {
+  outline: none;
+}
+
+.hidden,
+.hidden * {
+  pointer-events: none;
+  visibility: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
